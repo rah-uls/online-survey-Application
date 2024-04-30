@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E11313"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ONLINE SURVEY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/userrrr"
+            >
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/design"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <EditText
+            android:layout_width="150dp"
+            android:textStyle="bold"
+            android:background="@drawable/shap"
+            android:layout_height="50dp"
+            android:hint="   first name"
+            />
+
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shap"
+            android:layout_width="150dp"
+            android:textStyle="bold"
+            android:layout_height="50dp"
+            android:hint="   last name"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoComplete"
+            android:layout_width="150dp"
+            android:textStyle="bold"
+            android:layout_height="50dp"
+            android:background="@drawable/shap"
+            android:hint="   country" />
+
+        <AutoCompleteTextView
+            android:id="@+id/auto"
+            android:layout_width="150dp"
+            android:textStyle="bold"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shap"
+            android:hint="   city" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:background="@drawable/shap"
+            android:layout_height="50dp"/>
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="150dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shap"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="150dp"
+            android:textStyle="bold"
+            android:background="@drawable/shap"
+            android:layout_height="50dp"
+            android:hint="   COLLEGE"
+            />
+
+        <Spinner
+            android:id="@+id/spine"
+            android:layout_width="150dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shap"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <CheckBox
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="please fill the all instructions."
+            android:textAllCaps="true"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardElevation="20dp"
+        android:background="#0F2CE8"
+        app:cardCornerRadius="32dp"
+        android:layout_margin="30dp">
+        <TextView
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SUBMIT"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

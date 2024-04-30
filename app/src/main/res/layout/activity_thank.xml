@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#32B17E"
+    android:layout_height="match_parent"
+    tools:context=".thank">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_margin="50dp"
+        android:src="@drawable/shap"
+        android:layout_height="300dp"
+        android:background="@drawable/thankyouhhh"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:text="THANK YOU !"/>
+    </LinearLayout>
+
+</LinearLayout>
